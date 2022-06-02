@@ -87,7 +87,18 @@ p {
 }
 
 .project-card {
+  background-color: #f9fafb;
   margin-bottom: 2.5rem;
+  padding: 1rem 0.6rem;
+}
+
+.project-img {
+  width: 100%;
+}
+
+.projects-section,
+.skills-section {
+  margin-top: 1.6rem;
 }
 
 /*Images*/
