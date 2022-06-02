@@ -17,3 +17,84 @@ body {
 *:after {
   box-sizing: inherit;
 }
+
+img {
+  object-fit: cover;
+}
+
+.body-container {
+  max-width: 100%;
+}
+
+/*Typography*/
+
+h1,
+h2,
+h3,
+h4,
+.logo {
+  font-family: "Playfair Display", Georgia, Cambria, Cochin, serif;
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+/*HOMEPAGE*/
+
+/*Classes typography*/
+
+.contrast-words {
+  display: inline-block;
+  color: var(--headings-main-color);
+  background: var(--font-background-color);
+  padding: 0.3rem;
+}
+
+.h1-contrast-sections {
+  color: var(--headings-contrast-color);
+  font-weight: 900;
+}
+
+.logo {
+  font-size: 25px;
+  color: var(--background-contrast-color);
+  padding: 0.6rem;
+}
+
+/*Containers and sections*/
+
+.welcome-header,
+.skills-section {
+  background: var(--background-contrast-color);
+}
+
+.welcome-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome-text {
+  max-width: 250px;
+}
+
+.projects-section {
+  padding: 0.8rem;
+}
+
+.project-card {
+  margin-bottom: 2.5rem;
+}
+
+/*Images*/
+.profile-img {
+  align-self: flex-end;
+}
+
+.skills-img img {
+  max-width: 100%;
+}

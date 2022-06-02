@@ -1,0 +1,10 @@
+.cta {
+  display: block;
+  color: var(--dark-button-color);
+  background-color: var(--light-button-color);
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+  width: 180px;
+  text-decoration: none;
+  font-size: 20px;
+}
