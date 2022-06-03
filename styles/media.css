@@ -1,6 +1,32 @@
-@media only screen and (min-width: 640px) {
-  .projects-section {
-    display: flex;
+@media only screen and (min-width: 481px) {
+  /*containers and cards*/
+  .project-cards-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .welcome-header {
+    flex-direction: row;
     justify-content: space-between;
+  }
+
+  .skills-section {
+    flex-direction: row;
+  }
+
+  .welcome-text {
+    max-width: 500px;
+  }
+
+  /*Typography*/
+}
+
+@media only screen and (min-width: 769px) {
+}
+
+@media only screen and (min-width: 1025px) {
+  .project-cards-grid {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
