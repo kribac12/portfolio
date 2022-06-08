@@ -55,14 +55,15 @@ li {
   padding: 0.3rem;
 }
 
-.h1-contrast-sections {
+.heading-contrast-sections {
   color: var(--headings-contrast-color);
   font-weight: 900;
+  font-size: 2.5rem;
 }
 
 .projects-section h2 {
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 900;
   text-align: center;
 }
 
@@ -76,6 +77,11 @@ li {
 
 .project-card-heading {
   margin: 0.6rem 0rem 1rem;
+}
+
+.welcome-text p,
+.heading-contrast-sections {
+  padding-right: 1rem;
 }
 
 /*Containers and sections*/
@@ -94,6 +100,7 @@ li {
 
 .welcome-text {
   max-width: 250px;
+  padding-bottom: 1.2rem;
 }
 
 .projects-section {
@@ -118,7 +125,7 @@ li {
 
 .project-description {
   border-top: 3px solid var(--background-contrast-color);
-  margin-top: 1.5rem;
+  margin-top: 2rem;
 }
 
 .skills-section {
@@ -129,7 +136,12 @@ li {
   border-bottom: 2px solid var(--headings-contrast-color);
 }
 
-/*Images*/
+/*Images and image links hover styles*/
 .profile-img {
   align-self: flex-end;
+}
+
+.project-img:hover,
+.project-img:focus {
+  filter: brightness(0.6);
 }

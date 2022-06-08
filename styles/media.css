@@ -23,7 +23,7 @@
 
   .skills-section {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2.5fr;
   }
 
   .skills-description {
@@ -39,8 +39,8 @@
 
   /*Typography*/
 
-  h1 {
-    font-size: 2.3rem;
+  .heading-contrast-sections {
+    font-size: 3.1rem;
   }
 
   h2 {
@@ -51,11 +51,11 @@
     font-size: 1.4rem;
   }
 
-  .skills-help h1 {
+  .skills-help h2 {
     padding-left: 0.5rem;
   }
 
-  .skills-help h1 {
+  .skills-help h2 {
     padding-left: 0.5rem;
   }
 }
@@ -64,4 +64,6 @@
   .project-cards-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  /*Typography*/
 }
