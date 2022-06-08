@@ -1,10 +1,27 @@
+a {
+  text-decoration: none;
+}
+
 .cta {
   display: block;
-  color: var(--dark-button-color);
-  background-color: var(--light-button-color);
   padding: 0.6rem 1.2rem;
+  margin: 0 auto;
   margin-top: 1rem;
   width: 180px;
   text-decoration: none;
   font-size: 20px;
 }
+
+.cta-dark {
+  color: var(--dark-button-text);
+  background-color: var(--dark-button);
+}
+
+.cta-light {
+  color: var(--light-button-text);
+  background-color: var(--light-button);
+  width: 250px;
+  margin-top: 2rem;
+}
+
+/*Hover, active and focus styles*/

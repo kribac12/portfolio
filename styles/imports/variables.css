@@ -4,6 +4,8 @@
   --headings-contrast-color: #ffffff;
   --background-contrast-color: #e56258;
   --font-background-color: #ffffff;
-  --dark-button-color: #ffffff;
-  --light-button-color: #000000;
+  --dark-button-text: #ffffff;
+  --light-button-text: #000000;
+  --dark-button: #000000;
+  --light-button: #ffffff;
 }

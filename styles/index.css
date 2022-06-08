@@ -38,10 +38,10 @@ h4,
   font-family: "Playfair Display", Georgia, Cambria, Cochin, serif;
 }
 
-p {
+p,
+li {
   font-size: 20px;
-  margin: 0;
-  padding: 0;
+  line-height: 1.5rem;
 }
 
 /*HOMEPAGE*/
@@ -60,24 +60,22 @@ p {
   font-weight: 900;
 }
 
-.h2-banner {
-  display: inline-block;
-  background: var(--background-contrast-color);
-  color: var(--headings-contrast-color);
-  width: 60%;
-  padding: 10px 20px;
-  margin-left: -0.8rem;
-  border-radius: 0px 20px 20px 0px;
-}
-
-.logo {
-  font-size: 25px;
-  color: var(--background-contrast-color);
-  padding: 0.6rem;
+.projects-section h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
 }
 
 .project-card-p {
   max-width: 310px;
+}
+
+.skills p {
+  max-width: 600px;
+}
+
+.project-card-heading {
+  margin: 0.6rem 0rem 1rem;
 }
 
 /*Containers and sections*/
@@ -106,7 +104,7 @@ p {
   background-color: #f9fafb;
   max-width: 360px;
   margin-bottom: 2.5rem;
-  padding: 1rem 0.6rem;
+  padding: 0.6rem 0.6rem 2rem 0.6rem;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -116,6 +114,19 @@ p {
 .projects-section,
 .skills-section {
   margin-top: 1.6rem;
+}
+
+.project-description {
+  border-top: 3px solid var(--background-contrast-color);
+  margin-top: 1.5rem;
+}
+
+.skills-section {
+  padding: 2rem 0.8rem;
+}
+
+.skills {
+  border-bottom: 2px solid var(--headings-contrast-color);
 }
 
 /*Images*/
