@@ -6,11 +6,6 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .welcome-header {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
   .welcome-text {
     max-width: 500px;
   }
@@ -20,6 +15,11 @@
 
 @media only screen and (min-width: 769px) {
   /*Containers and cards*/
+
+  .welcome-header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
   .skills-section {
     display: grid;
